@@ -15,7 +15,7 @@ class EmployeeViewController: UIViewController, UITableViewDelegate, UITableView
     var employees = [["Phenyo", "Malele", "Phenyo@gmail.com"], ["Brad", "Davids","Brad@gmail.com"],["Ethel", "Malele", "ethel@gmail.com"],["Treasure","Malele","treasure@gmail.com"]]
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        tableview.rowHeight = 200
         // Do any additional setup after loading the view.
     }
     

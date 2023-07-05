@@ -28,30 +28,35 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEf-9s-meG">
-                                                    <rect key="frame" x="30" y="13" width="45" height="21"/>
+                                                    <rect key="frame" x="30" y="21" width="45" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Surname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLC-X7-yfP">
-                                                    <rect key="frame" x="20" y="60" width="69" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Surname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLC-X7-yfP">
+                                                    <rect key="frame" x="29.999999999999993" y="60" width="68.333333333333314" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obt-Lf-2aQ">
-                                                    <rect key="frame" x="20" y="98" width="41" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Obt-Lf-2aQ">
+                                                    <rect key="frame" x="29.999999999999996" y="99" width="40.666666666666657" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="Obt-Lf-2aQ" firstAttribute="leading" secondItem="gO6-JV-zav" secondAttribute="leadingMargin" constant="10" id="5XE-EP-Alw"/>
                                                 <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="fEf-9s-meG" secondAttribute="trailing" constant="10" id="5hX-Jo-AuE"/>
+                                                <constraint firstItem="aLC-X7-yfP" firstAttribute="top" secondItem="fEf-9s-meG" secondAttribute="bottom" constant="18" id="Bak-9E-9a3"/>
+                                                <constraint firstItem="fEf-9s-meG" firstAttribute="top" secondItem="gO6-JV-zav" secondAttribute="topMargin" constant="10" id="EDW-bA-El7"/>
+                                                <constraint firstItem="Obt-Lf-2aQ" firstAttribute="top" secondItem="aLC-X7-yfP" secondAttribute="bottom" constant="18" id="GYF-QN-RTE"/>
                                                 <constraint firstItem="fEf-9s-meG" firstAttribute="leading" secondItem="gO6-JV-zav" secondAttribute="leadingMargin" constant="10" id="JI9-WA-37b"/>
-                                                <constraint firstItem="fEf-9s-meG" firstAttribute="top" secondItem="gO6-JV-zav" secondAttribute="topMargin" constant="2" id="Knv-6R-0zj"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Obt-Lf-2aQ" secondAttribute="trailing" constant="10" id="KFn-PB-LFJ"/>
+                                                <constraint firstItem="Obt-Lf-2aQ" firstAttribute="leading" secondItem="fEf-9s-meG" secondAttribute="leading" id="Z0i-Aa-wxK"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="aLC-X7-yfP" secondAttribute="trailing" constant="10" id="a5r-QJ-8ev"/>
+                                                <constraint firstItem="Obt-Lf-2aQ" firstAttribute="leading" secondItem="aLC-X7-yfP" secondAttribute="leading" id="iim-Yb-pGw"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
